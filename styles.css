@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 69px;
+    box-shadow: rgba(0, 0, 0, 0.15) 15px 1.5px 2px;
+}
+
+.left img{
+    height: 25px;
+    width: 40px;
+}
+
+.container{
+    padding: 0 2vw;
+}
+
+.container1{
+    padding: 0 1vw;
+}
+
+
+nav{
+    font-size: 14px;
+    padding-top: 16px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.searchbar{
+    width: 31vw;
+    padding: 8px 21px;
+    border: 0.2px solid #aeaeae;
+    background: #f7f5f5;
+    border-radius: 5px;
+}
+
+.main-img{
+    width: -webkit-fill-available;
+    margin: 11px 0;
+}
+
+.sub-img{
+    width: 18vw;
+}
+
+.sub-img1{
+    width: 11vw;
+}
+
+.sub-img2{
+    width: 18vw;
+}
+
+.bet-text{
+    padding-left: 1vw;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+}
+
+.sec-text{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+
+
+  * {box-sizing:border-box}
+
+  
+.mySlides {
+    display: none;
+  }
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
